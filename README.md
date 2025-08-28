@@ -1,7 +1,3 @@
-Of course. Here is a clean, dynamic, and focused README that displays *only* the tech stack you provided, using a single animated element for a modern and "techy" feel.
-
-This is guaranteed to work and avoids any of the extra components that caused issues before.
-
 ````markdown name=README.md
 <p align="center">
   <br><br><br><br>
