@@ -1,4 +1,3 @@
-````markdown name=README.md
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F52FF,50:000000,100:ED8B00&height=200&section=header&text=Sourav%20Kumar&fontSize=60&fontColor=ffffff&animation=fadeIn" alt="Header" />
 </p>
@@ -35,4 +34,3 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F52FF,50:000000,100:ED8B00&height=120&section=footer" alt="Footer" />
 </p>
-````
