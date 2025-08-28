@@ -1,4 +1,3 @@
-````markdown name=README.md
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Hi!%20I'm%20Sourav%20Kumar&fontSize=50&fontColor=ffffff" />
 </p>
@@ -63,6 +62,3 @@ I'm a developer with a strong interest in backend systems, mobile applications, 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=150&section=footer" />
 </p>
-````
-
-
