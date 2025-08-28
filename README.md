@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Hi!%20I'm%20Sourav%20Kumar&fontSize=50&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=282a36&height=200&section=header&text=Sourav%20Kumar&fontSize=80&fontColor=bd93f9&animation=fadeIn" alt="Sourav Kumar"/>
 </p>
 
 <p align="center">
@@ -44,5 +44,5 @@ I'm a developer with a strong interest in backend systems, mobile applications, 
 
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=150&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=282a36&height=150&section=footer" alt="Footer"/>
 </p>
