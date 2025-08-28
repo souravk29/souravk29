@@ -1,205 +1,272 @@
-<!-- PROFILE HEADER -->
+<!-- ============================================================
+  PERSONAL BRAND HEADER
+  Style: Bold, high-contrast gradient banner with concise tagline
+=============================================================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f0c29,50:302b63,100:24243e&height=260&text=Sourav%20Kumar&fontSize=62&fontAlignY=38&desc=Backend%20%7C%20Systems%20%7C%20Mobile%20%7C%20Rust%20%26%20Kotlin%20Enthusiast&descAlignY=60&animation=fadeIn&fontColor=ffffff" alt="header banner"/>
+  <img 
+    src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2027,50:203a43,100:2c5364&height=140&section=header&text=Sourav%20Kumar&fontSize=52&fontAlign=50&fontColor=ffffff&desc=Rust%20%7C%20Kotlin%20%7C%20Systems%20%26%20Mobile%20Engineering&descAlign=50&descSize=16" 
+    alt="Header banner: Sourav Kumar – Rust | Kotlin | Systems & Mobile Engineering"
+/>
 </p>
 
-<!-- QUICK IDENTITY -->
-<h2 align="center">👨‍💻 Developer | ⚙️ Systems Thinker | 🚀 Constant Learner</h2>
+<!-- QUICK ID / SOCIAL -->
+<p align="center">
+  <a href="mailto:your.email@example.com">
+    <img src="https://img.shields.io/badge/Email-Contact-2c5364?style=flat&logo=gmail&logoColor=white" alt="Email badge">
+  </a>
+  <a href="https://linkedin.com/in/your-linkedin-username">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-203a43?style=flat&logo=linkedin" alt="LinkedIn badge">
+  </a>
+  <a href="https://twitter.com/your-twitter-username">
+    <img src="https://img.shields.io/badge/Twitter-Follow-0f2027?style=flat&logo=twitter" alt="Twitter badge">
+  </a>
+  <a href="https://stackoverflow.com/users/your-so-id">
+    <img src="https://img.shields.io/badge/StackOverflow-Profile-F48024?style=flat&logo=stackoverflow&logoColor=white" alt="StackOverflow badge">
+  </a>
+</p>
 
 <p align="center">
-  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-Contact-informational?style=flat&logo=gmail&color=EA4335"></a>
-  <a href="https://linkedin.com/in/your-linkedin-username"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin"></a>
-  <a href="https://twitter.com/your-twitter-username"><img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=flat&logo=twitter"></a>
-  <a href="https://dev.to/your-devto"><img src="https://img.shields.io/badge/Dev.to-Articles-0A0A0A?style=flat&logo=devdotto"></a>
-  <a href="https://stackoverflow.com/users/your-so-id"><img src="https://img.shields.io/badge/StackOverflow-Profile-F48024?style=flat&logo=stackoverflow"></a>
+  <img src="https://komarev.com/ghpvc/?username=souravk29&style=flat-square&color=2c5364" alt="Profile view counter" />
 </p>
 
 ---
 
-### 🧭 About Me
+### 👋 Hi, I’m Sourav
 
-- 🔭 Currently exploring high-performance backend services with Rust (Actix Web) & Kotlin.
-- 📱 Building intuitive Android experiences & efficient REST APIs.
-- 🧠 Diving deeper into systems programming, memory models, and performance tuning.
-- 🛠 Love refactoring code for clarity, safety, and speed.
-- 💬 Ask me about: Rust async, Kotlin Coroutines, Android architecture, JVM vs native performance.
-- ⚡ Fun fact: The best optimization is often deleting code that isn’t needed.
+I engineer performant backend services (Rust / Actix Web), craft scalable Android and Kotlin-based mobile layers, and enjoy squeezing unnecessary latency and allocation out of critical paths. I’m driven by clarity, correctness, and code longevity.
+
+- 🔭 Current Focus: Building robust APIs & exploring deeper systems-level patterns in Rust.
+- 📱 Mobile: Kotlin + clean architecture (layers, DI, coroutines).
+- 🚀 Goal (Next 12 Months): Contribute to an OSS Rust crate or JVM performance tool.
+- 💬 Ask Me About: Async Rust, Kotlin coroutines design, API ergonomics, safe performance refactors.
+- 🧪 Philosophy: Fewer features done well > many partially baked ones.
+- ⚡ Motto: “Make the default path the safe & fast one.”
 
 ---
 
-### 🧪 Tech Stack Core
+### 🧠 Engineering Principles (My Edge)
+
+| Principle | Why It Matters | How I Apply It |
+|-----------|----------------|----------------|
+| Determinism | Reduces debugging chaos | Avoid hidden global state, explicit error surfaces |
+| Mechanical Sympathy | Hardware-aware decisions | Benchmark & profile before “optimizing” |
+| Intentional Concurrency | Avoids complexity walls | Prefer structured concurrency & explicit ownership |
+| Safety with Speed | Sustainable performance | Rust for core services; Kotlin for product velocity |
+| Observability Early | Faster iteration loops | Logs + metrics scaffolding before scaling logic |
+
+---
+
+### 🛠 Core Tech Stack
 
 <p align="center">
-  <!-- Languages -->
-  <img src="https://img.shields.io/badge/Rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
+  <!-- Main Languages -->
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
   <!-- Frameworks / Tools -->
-  <img src="https://img.shields.io/badge/Actix%20Web-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/Android%20Studio-%233DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Actix%20Web-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Actix Web">
+  <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt="Android Studio">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
 </p>
 
 <details>
-<summary><b>🧩 Additional Interests & Tools</b></summary>
+<summary><strong>🧩 Supporting Tools & Interests (toggle)</strong></summary>
 
-- 🧪 Testing & Quality: JUnit, cargo test, instrumentation testing
-- 🧵 Concurrency: Structured concurrency (Kotlin), async/await (Rust), thread pools
-- 🧰 Tooling: Gradle, Cargo, Git CLI, profilers
-- ☁️ (Optional) Cloud: Add AWS / GCP / Docker / Kubernetes if you use them
-- 🔐 Security Curiosity: Minimal APIs with safe defaults, input validation, type-safety
-
+- Build / Packaging: Gradle, Cargo
+- Testing: JUnit, cargo test, instrumentation (Android)
+- Concurrency: coroutines, async/await, thread pools
+- Profiling: (Add: Android profiler, cargo-flamegraph, async instrumentation)
+- (Optionally add Docker / Cloud if you use them)
+- Potential Add: CI (GitHub Actions), metrics dashboards
 </details>
 
 ---
 
-### 📌 Featured Projects (Replace with yours)
+### 📌 Featured Work (Update With Your Repos)
 
 <p align="center">
-  <!-- Replace repo names with real ones -->
-  <a href="https://github.com/souravk29/awesome-rust-api">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=souravk29&repo=awesome-rust-api&theme=tokyonight&hide_border=true" />
+  <a href="https://github.com/souravk29/rust-actix-starter">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=souravk29&repo=rust-actix-starter&theme=tokyonight&hide_border=true" alt="Pinned: rust-actix-starter">
   </a>
-  <a href="https://github.com/souravk29/kotlin-android-starter">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=souravk29&repo=kotlin-android-starter&theme=tokyonight&hide_border=true" />
+  <a href="https://github.com/souravk29/kotlin-android-template">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=souravk29&repo=kotlin-android-template&theme=tokyonight&hide_border=true" alt="Pinned: kotlin-android-template">
   </a>
 </p>
 
-> Tip: Create (or rename) repos to match the placeholders above, or change the links to your actual top projects.
+> Tip: Rename or create repos that reflect real strengths (e.g., `actix-performance-lab`, `android-clean-architecture-demo`).
 
 ---
 
 ### 📊 Metrics & Analytics
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=souravk29&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=souravk29&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" />
+  <picture>
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api?username=souravk29&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"
+      media="(prefers-color-scheme: dark)"
+    />
+    <img 
+      src="https://github-readme-stats.vercel.app/api?username=souravk29&show_icons=true&hide_border=true"
+      alt="GitHub stats card"
+      height="165"
+    />
+  </picture>
+  <picture>
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=souravk29&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"
+      media="(prefers-color-scheme: dark)"
+    />
+    <img 
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=souravk29&layout=compact&hide_border=true"
+      alt="Top languages"
+      height="165"
+    />
+  </picture>
   <br/>
-  <img height="180" src="https://streak-stats.demolab.com?user=souravk29&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=souravk29&theme=tokyonight&hide_border=true" alt="Contribution streak" height="185">
   <br/>
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=souravk29&theme=tokyo-night&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=souravk29&theme=tokyo-night&hide_border=true" alt="Activity graph">
 </div>
 
-> Languages card = proportion of public code; not a direct measure of skill.
+> NOTE: "Top Languages" ≠ skill level. It’s a public repo size ratio.
 
 ---
 
 ### 🏆 Achievements
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=souravk29&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8" />
+  <img src="https://github-profile-trophy.vercel.app/?username=souravk29&theme=algolia&no-frame=true&margin-w=10&margin-h=10" alt="GitHub trophies">
 </p>
 
 ---
 
-### 🐍 Contribution Animation
+### 🐍 Contribution Visual
 
 <p align="center">
-  <img src="https://github.com/souravk29/souravk29/blob/output/github-contribution-grid-snake.svg" alt="snake animation"/>
+  <img src="https://github.com/souravk29/souravk29/blob/output/github-contribution-grid-snake.svg" alt="Snake animation of contributions">
 </p>
 
 <details>
-<summary>How to enable the snake (instructions)</summary>
+<summary><strong>Enable Snake Animation (steps)</strong></summary>
 
-1. Create a workflow file: .github/workflows/snake.yml
-2. Use action: Platane/snk (or fork).
-3. Generate and push to branch: output
-4. Reference the SVG as above.
-
+1. Create: `.github/workflows/snake.yml`  
+2. Use action: `Platane/snk@v3`  
+3. Output to branch: `output`  
+4. Commit & ensure the SVG path matches above.
 </details>
 
 ---
 
-### ⏱️ (Optional) WakaTime Coding Stats
+### 🧭 Learning Trajectory
 
-<!-- Uncomment after setting up WakaTime + GitHub Action -->
-<!--
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=your_wakatime_username&theme=tokyonight&hide_border=true"/>
-</div>
--->
+```mermaid
+timeline
+    title 2025 Roadmap
+    Q1 : Deep dive into async Rust internals
+    Q2 : Publish a reusable Actix middleware crate
+    Q3 : Optimize Android build & startup times
+    Q4 : OSS contribution + performance profiling toolkit
+```
 
-<details>
-<summary>Setup WakaTime Section</summary>
-
-1. Create WakaTime account.
-2. Add API key as secret: WAKATIME_API_KEY
-3. Use action: athul/waka-readme
-4. Add placeholder comment tags to inject stats automatically.
-</details>
+(Adjust timeline as goals evolve.)
 
 ---
 
-### 📝 (Optional) Latest Blog / Articles
+### 🧪 Sample Philosophy (Rust API Snippet)
+
+```rust
+/// Example pattern: explicit error types + small surface
+pub async fn create_user(
+    payload: web::Json<NewUser>,
+    repo: web::Data<UserRepo>
+) -> Result<impl Responder, ApiError> {
+    let user = repo.create(&payload.into_inner()).await?;
+    Ok(web::Json(UserDto::from(user)))
+}
+```
+
+> Favor explicit domain errors over generic boxed ones for debuggability & quality of logs.
+
+---
+
+### 📝 (Optional) Latest Articles
 
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
 <details>
-<summary>Enable Auto Blog Updates</summary>
+<summary><strong>Enable Auto Blog Updates (instructions)</strong></summary>
 
-Use action: gautamkrishnar/blog-post-workflow  
-Add your RSS feed (Dev.to, Medium, Hashnode, etc.).  
-It will replace the placeholder automatically.
+1. Add workflow: `gautamkrishnar/blog-post-workflow`  
+2. Provide your RSS feed (Dev.to, Medium, Hashnode).  
+3. It overwrites the comment block above.
 </details>
 
 ---
 
-### 🧠 Code Philosophy
+### ⏱️ (Optional) WakaTime Stats
 
-> "Simple is better than clever. Deterministic is better than magical. Intentional is better than implicit."
+<!--
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=your_wakatime_username&theme=tokyonight&hide_border=true" alt="WakaTime stats">
+-->
 
-- ✅ I optimize for maintainability first, performance second (unless proven hot path).
-- 🧪 I write tests that describe behavior, not implementation details.
-- 🔄 I believe refactoring is continuous, not an afterthought.
+<details>
+<summary><strong>Enable WakaTime (instructions)</strong></summary>
 
----
-
-### 📬 Contact & Collaboration
-
-Got an interesting systems / tooling / performance project?  
-Reach out: your.email@example.com or open a discussion in this repo.
-
----
-
-### 🛠️ Quick Setup Checklist (You Can Delete This Section Later)
-
-- [ ] Replace social links (LinkedIn, Twitter, etc.)
-- [ ] Add real project repo names under "Featured Projects"
-- [ ] (Optional) Add blog workflow
-- [ ] (Optional) Add WakaTime workflow
-- [ ] (Optional) Add Snake workflow
-- [ ] (Optional) Add metrics card via https://github.com/lowlighter/metrics
-- [ ] Remove this checklist when done
+1. Create WakaTime account, get API key  
+2. Add secret: `WAKATIME_API_KEY`  
+3. Use action: `athul/waka-readme`  
+4. Add placeholder comments if needed.
+</details>
 
 ---
 
-### ⚙️ Bonus: Advanced Metrics (Optional)
+### 📦 (Optional) All-in-One Metrics
 
-To generate an all-in-one metrics card:
-
-1. Enable GitHub Actions.
-2. Use: lowlighter/metrics
-3. Example (after setup):
-
+After configuring:
 ```
 ![Metrics](https://raw.githubusercontent.com/souravk29/souravk29/main/github-metrics.svg)
 ```
 
+<details>
+<summary><strong>Enable Metrics Card (lowlighter/metrics)</strong></summary>
+
+1. Generate a classic token with `public_repo` (and extra scopes if needed).  
+2. Add secret: `METRICS_TOKEN`  
+3. Use workflow from repo: `lowlighter/metrics`.  
+4. Choose plugins: languages, activity, achievements, lines, habits, etc.
+</details>
+
+---
+
+### 🤝 Collaboration
+
+Got an idea around performance benchmarking, reliable async APIs, or mobile-backend sync flows?  
+→ Reach out: your.email@example.com
+
+---
+
+### ✅ Setup Checklist (Delete Once Done)
+
+- [ ] Replace email + social usernames
+- [ ] Replace pinned repos + create any missing ones
+- [ ] Add snake workflow
+- [ ] Optional: Add blog + WakaTime + metrics workflows
+- [ ] Remove checklist + internal comments
+
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&pause=1000&color=39D353&center=true&vCenter=true&width=600&lines=Thank+you+for+visiting!;Happy+Coding+%F0%9F%9A%80;Rust+%7C+Kotlin+%7C+Java+%7C+Android+%7C+Systems" alt="Typing animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&pause=900&color=2c5364&center=true&vCenter=true&width=600&lines=Thanks+for+visiting!;Building+robust+systems.;Rust+%7C+Kotlin+%7C+Performance+%7C+Mobile" alt="Typing animation">
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=140&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=110&section=footer" alt="Footer wave">
 </p>
 
 <!--
-This is a special repository: souravk29/souravk29
-Feel free to customize anything above.
+This README is intentionally modular. Trim sections that don't serve your narrative.
 -->
