@@ -1,16 +1,13 @@
 
-<a href="https://github.com/YOUR_GITHUB_USERNAME">
-   <img src="https://github.com/sunface/sunface/blob/master/assets/ferris.gif" align="center" width="70%"/>
+
+
+<a href="https://github.com/souravk29">
+   <img src="https://github.com/sunface/sunface/raw/master/assets/ferris.gif" align="center" width="70%"/>
 </a>
-
-
-
-
-
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=rust" height="50" alt="Rust"/>
-  <img src="https://raw.githubusercontent.com/actix/actix-web/master/assets/logo/actix-logo.svg" height="50" alt="Actix Web"/>
+  <img src="https://skillicons.dev/icons?i=actix" height="50" alt="Actix Web"/>
   <img src="https://skillicons.dev/icons?i=kotlin" height="50" alt="Kotlin"/>
   <img src="https://skillicons.dev/icons?i=cpp" height="50" alt="C++"/>
   <img src="https://skillicons.dev/icons?i=java" height="50" alt="Java"/>
