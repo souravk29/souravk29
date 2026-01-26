@@ -1,9 +1,9 @@
 
 
 
-<a href="https://github.com/souravk29">
+<!-- <a href="https://github.com/souravk29">
    <img src="https://github.com/sunface/sunface/raw/master/assets/ferris.gif" align="center" width="70%"/>
-</a>
+</a> -->
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=rust" height="50" alt="Rust"/>
