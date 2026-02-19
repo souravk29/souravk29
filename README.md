@@ -3,7 +3,7 @@
 
 <!-- <a href="https://github.com/souravk29">
    <img src="https://github.com/sunface/sunface/raw/master/assets/ferris.gif" align="center" width="70%"/>
-</a> -->
+</a> - -->
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=cpp" height="50" alt="C++"/>
